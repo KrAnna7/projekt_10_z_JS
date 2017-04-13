@@ -1,0 +1,167 @@
+@import url("https://fonts.googleapis.com/css?family=Raleway:400,700,800");
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:400,700,800");
+
+.cont_with_float_el:before, .container:before, .hero:before, .row:before, .galery:before, .contact:before, .cont_with_float_el:after, .container:after, .hero:after, .row:after, .galery:after, .contact:after {
+  content: "";
+  clear: both;
+  display: table; }
+
+* {
+  box-sizing: border-box; }
+
+body {
+  margin: 0;
+  font-family: "Open Sans", sans-serif; }
+
+.container {
+  max-width: 1200px;
+  width: 100%;
+  margin: 0 auto; }
+
+header {
+  background-color: #313332;
+  height: 50px;
+  line-height: 50px;
+  text-transform: uppercase;
+  font-weight: bold; }
+  header > nav > img {
+    padding: 10px 0; }
+  header > nav > ul {
+    float: right;
+    margin: 0 20px;
+    padding: 0px;
+    list-style-type: none; }
+    header > nav > ul > li {
+      display: inline-block; }
+      header > nav > ul > li:hover > a {
+        color: #00c7e8; }
+      header > nav > ul > li > a {
+        text-decoration: none;
+        color: white;
+        text-transform: uppercase;
+        padding: 0 20px; }
+
+.hero {
+  background: url(http://i524.photobucket.com/albums/cc327/Jerzy_K/Background_zps0yvfhk3b.jpg);
+  width: 100%;
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+  overflow: hidden; }
+
+.slogan {
+  float: right;
+  max-width: 800px;
+  text-transform: uppercase;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+  margin-top: 80px;
+  padding: 20px; }
+
+section > .container {
+  margin: 50px auto;
+  text-align: center; }
+
+[class*="col-"] {
+  float: left;
+  min-height: 150px;
+  padding: 10px;
+  position: relative; }
+
+.col-1 {
+  width: 8.33%; }
+
+.col-2 {
+  width: 16.66%; }
+
+.col-3 {
+  width: 25%; }
+
+.col-4 {
+  width: 33.33%; }
+
+.col-5 {
+  width: 41.66%; }
+
+.col-6 {
+  width: 50%; }
+
+.col-7 {
+  width: 58.33%; }
+
+.col-8 {
+  width: 66.66%; }
+
+.col-9 {
+  width: 75%; }
+
+.col-10 {
+  width: 83.33%; }
+
+.col-11 {
+  width: 91.66%; }
+
+.col-12 {
+  width: 100%; }
+
+.footer {
+  background-color: #252726;
+  min-height: 20px;
+  color: white;
+  text-align: center; }
+
+@media (max-width: 767px) {
+  /* For tablets: */
+  [class*="col-"] {
+    width: 100%;
+    padding: 12px;
+    float: left; }
+
+  header {
+    height: auto;
+    line-height: 50px;
+    text-align: center; }
+    header > nav > ul {
+      float: none;
+      margin: 0 10px;
+      padding: 0px; }
+      header > nav > ul > li {
+        display: block; }
+
+  .col-s-1 {
+    width: 8.33%; }
+
+  .col-s-2 {
+    width: 16.66%; }
+
+  .col-s-3 {
+    width: 25%; }
+
+  .col-s-4 {
+    width: 33.33%; }
+
+  .col-s-5 {
+    width: 41.66%; }
+
+  .col-s-6 {
+    width: 50%; }
+
+  .col-s-7 {
+    width: 58.33%; }
+
+  .col-s-8 {
+    width: 66.66%; }
+
+  .col-s-9 {
+    width: 75%; }
+
+  .col-s-10 {
+    width: 83.33%; }
+
+  .col-s-11 {
+    width: 91.66%; }
+
+  .col-s-12 {
+    width: 100%; } }
+
+/*# sourceMappingURL=style.css.map */
